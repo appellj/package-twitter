@@ -2,21 +2,20 @@
 
 Connects to Twitter from Ballerina. 
 
-This package provides a Ballerina API for the Twitter REST API. It contains operations that update the current status, retweet a tweet, 
-untweet a retweeted status, search for tweets, retrieve a status, destroy a status, retrieve closest trend locations, and retrieve top trends by place.
+This package provides a Ballerina API for the Twitter REST API. It contains operations that update the current status, retweet a tweet, untweet a retweeted status, search for tweets, retrieve a status, destroy a status, retrieve closest trend locations, and retrieve top trends by place.
 
 **Status Operations**
 
-The wso2/twitter package contains operations that work with statuses. You can update the current status, retweet a tweet, 
+The `wso2/twitter` package contains operations that work with statuses. You can update the current status, retweet a tweet, 
 untweet a retweeted status, retrieve a status, and destroy a status.
 
 **Search Operations**
 
-The wso2/twitter package contains operations that search for tweets. 
+The `wso2/twitter` package contains operations that search for tweets. 
 
 **Trends Operations**
 
-The wso2/twitter package contains operations that retrieve closest trend locations and retrieve top trends by place.
+The `wso2/twitter` package contains operations that retrieve closest trend locations and retrieve top trends by place.
 
 
 
@@ -41,11 +40,11 @@ and Access Token Secret in the Twitter client config.
 **Obtaining API Keys and Tokens to Run the Sample**
 
 1. Log in to https://apps.twitter.com/app/new.
-2. Click Create New App.
+2. Click **Create New App**.
 3. Provide the required information about the application.
-4. Agree to the Developer Agreement and click Create your Twitter Application.
+4. Agree to the Developer Agreement and click **Create your Twitter Application**.
 5. After creating your Twitter application, your Consumer Key and Consumer Secret will be displayed in the Keys and Access Tokens tab of your app on Twitter.
-6. Click the Keys and Access Tokens tab, and then enable your Twitter account to use this application by clicking the Create my access token button.
+6. Click the **Keys and Access Tokens** tab, and then enable your Twitter account to use this application by clicking the **Create my access token** button.
 7. Copy the Consumer key (API key), Consumer Secret, Access Token, and Access Token Secret from the screen.
 
 
